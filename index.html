@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+<title></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("https://cdn.pixabay.com/photo/2017/08/06/20/11/wedding-2595862_960_720.jpg")}
+.bgimg2 {background-image: url("https://cdn.pixabay.com/photo/2018/01/09/22/51/roses-3072698_960_720.jpg")}
+</style>
+<body>
+
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">Álisson & Laryssa</h1>
+    <h2>vão se casar</h2>
+    <h2><b>14.12.2018</b></h2>
+  </div>
+</header>
+
+
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button">Álisson & Laryssa</a>
+    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Casamento</a>
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
+  </div>
+</div>
+
+
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>Álisson & Laryssa</b></h1>
+    <img class="w3-round w3-grayscale-min" src="https://cdn.pixabay.com/photo/2014/11/13/17/04/heart-529607_960_720.jpg" style="width:100%;margin:32px 0">
+    <p><i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, magnam! Magnam illum sapiente totam! Alias quidem officia deleniti ut voluptate, eveniet sint facere, sit ex nostrum fuga ad deserunt laborum!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia quam exercitationem porro in fuga, veritatis blanditiis iusto voluptas sunt hic dolore eos sed cum, magnam, ex aliquam saepe aperiam. Nemo?</i>
+    </p><br>
+    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Detalhes do casamento</a></p>
+  </div>
+</div>
+
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">Você foi convidado</h1><br>
+    <h2> É Claro...</h2>
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>O CASAMENTO</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="https://cdn.pixabay.com/photo/2016/03/27/18/53/drinks-1283608_960_720.jpg">
+    <div class="w3-row">
+      <div class="w3-half">
+        <h2>QUANDO</h2>
+        <p> 14/12/2018</p>
+        <p>Cerimônia de casamento - 14h</p>
+        <p>Recepção e jantar - 17h</p>
+      </div>
+      <div class="w3-half">
+        <h2>ONDE</h2>
+        <p>Igreja Pentecostal Rocha Eterna</p>
+        <p>Rua: manuel Inácio, Número:144</p>
+        <p>Nazaré Da Mata, PE</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+  <h1>ESPERO QUE VOCÊ CONSIGA VIM!</h1>
+  <p class="w3-large">Gentilmente responda até Setembro de 2018</p>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
+  </p>
+</div>
+
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide">VOCÊ CONSEGUE VIR?</h1>
+      <p>Realmente esperamos que você consiga.</p>
+      <form>
+        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="nome">
+      </form>
+      <p><i>Atenciosamente, Álisson &  Laryssa</i></p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Sim eu vou</button>
+        </div>
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Não posso ir</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Desenvolvido por Álisson</p>
+   <h2>Contato</h2>
+
+   <a target="_blank" href="https://www.linkedin.com.br">
+    <img width="30px" src="https://image.flaticon.com/icons/png/128/179/179330.png" alt=""></a>
+
+     <a target="_blank" href="https://api.whatsapp.com/send?phone=48900000000">
+      <img width="30px" src="https://image.flaticon.com/icons/png/128/134/134937.png" alt=""></a>
+
+      <a target="_blank" href="https://www.facebook.com/alyssynho.santanaDc/">
+      <img width="30px" srcset="https://cdn.icon-icons.com/icons2/642/PNG/512/facebook_icon-icons.com_59205.png"></a>
+</footer>
+ <div class="w3-hide-small" style="margin-bottom: 32px">&nbsp;</div> 
+
+
+
+</body>
+</html>
