@@ -11,7 +11,7 @@ Foi minha aplicação final em um hackathon onde pude fazer minha apresentação
 
 ## Layout web
 
-![Web 1]()
+![Web 1](https://media0.giphy.com/media/z7xNlmshraTwkJhcsg/giphy.gif?cid=790b76117b75773564087a05dc98d80034685d44fdaa0c67&rid=giphy.gif&ct=g)
 
 
 # Tecnologias utilizadas
