@@ -22,5 +22,4 @@ Foi minha aplicação final em um hackathon onde pude fazer minha apresentação
 # Autor
 Álisson josé de Santana
 
-https://www.linkedin.com/in/%C3%A1lisson-santana-ba594b1a5/
-
+https://www.linkedin.com/in/%C3%A1lisson-santana-frontend/
